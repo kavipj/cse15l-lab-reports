@@ -14,12 +14,16 @@ Explanation of output: The `cd lecture1` command is used in the terminal to chan
 Output is an error. You cannot change the working directory to a file. The `cd` command can only be used with directories.
 Absolute path: /Users/kavi/lecture1
 Explanation of output: The `cd` command is used to change directories. However, `Hello.java` is a file, not a directory. Therefore, if you try to run `cd Hello.java`, you will receive an error message stating that `Hello.java` is not a directory.
+
 ---
+
 **ls**
 1. Share an example of using the command with no arguments.
 2. Share an example of using the command with a path to a directory as an argument.
 3. Share an example of using the command with a path to a file as an argument.
+
 ---
+
 **cat**
 1. Share an example of using the command with no arguments.
 2. Share an example of using the command with a path to a directory as an argument.
