@@ -36,5 +36,15 @@
 
 ## cat
 1. **Share an example of using the command with no arguments.**
+- <img width="271" alt="Screenshot 2024-04-02 at 4 40 05 PM" src="https://github.com/kavipj/cse15l-lab-reports/assets/146383794/4b0fd25b-7d38-4254-bc29-25f698bdd1bc">
+- Absolute path: /Users/kavi/lecture1
+- Explanation of output: The `cat` command without any arguments is used to read from standard input and write to standard output. When you run `cat` with no arguments, it waits for you to enter text from the keyboard. Whatever you type will be echoed back to the terminal when you press Enter. This continues until you signal the end of the input by pressing `Ctrl+D`.
 2. **Share an example of using the command with a path to a directory as an argument.**
+- <img width="318" alt="Screenshot 2024-04-02 at 4 39 31 PM" src="https://github.com/kavipj/cse15l-lab-reports/assets/146383794/7e0322ca-7dfe-4f18-b745-ac5364bdacdb">
+- Output is an error.
+- Absolute path: /Users/kavi/lecture1
+- Explanation of output: Because `lecture1` is a directory, you will receive an error message because `cat` cannot display the content of a directory.
 3. **Share an example of using the command with a path to a file as an argument.**
+- <img width="510" alt="Screenshot 2024-04-02 at 4 39 47 PM" src="https://github.com/kavipj/cse15l-lab-reports/assets/146383794/4b456a59-4fd1-4b82-89bc-7771405baa8b">
+- Absolute path: /Users/kavi/lecture1
+- Explanation of output: The `cat Hello.java` command is used in the terminal to display the content of the `Hello.java` file. Because `Hello.java` is a file that exists in the current working directory, the command will print the content of `Hello.java` to the terminal.
