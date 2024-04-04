@@ -19,18 +19,17 @@
 
 ## ls
 1. **Share an example of using the command with no arguments.**
-- <img width="654" alt="Screenshot 2024-04-02 at 4 19 35 PM" src="https://github.com/kavipj/cse15l-lab-reports/assets/146383794/4edaab60-31cb-492c-b947-dc9d871fc1da">
-- Absolute path: /Users/kavi/lecture1
+- <img width="654" alt="Screenshot 2024-04-02 at 4 19 35 PM" src="https://github.com/kavipj/cse15l-lab-reports/assets/146383794/1c01bbf4-2b21-41ed-981a-90f8f2f20a40">
+- Absolute path: /Users/kavi
 - Explanation of output: The `ls` command is used in the terminal to list files and directories in the current working directory. When you run `ls` without any arguments, it will display the names of all files and directories in the current directory.
 2. **Share an example of using the command with a path to a directory as an argument.**
-- <img width="364" alt="Screenshot 2024-04-02 at 4 19 54 PM" src="https://github.com/kavipj/cse15l-lab-reports/assets/146383794/41d045b2-1b99-4b96-ab00-857eaa8eb274">
-- Absolute path: /Users/kavi/lecture1
+- <img width="364" alt="Screenshot 2024-04-02 at 4 19 54 PM" src="https://github.com/kavipj/cse15l-lab-reports/assets/146383794/dd81cecc-d85b-44f5-98f9-86c2414cb8a8">
+- Absolute path: /Users/kavi
 - Explanation of output: The `ls lecture1` command is used in the terminal to list files and directories in the `lecture1` directory. Because `lecture1` is a directory that exists in the current working directory, the command displays the names of all files and directories in the `lecture1` directory.
 3. **Share an example of using the command with a path to a file as an argument.**
-- <img width="287" alt="Screenshot 2024-04-02 at 4 20 15 PM" src="https://github.com/kavipj/cse15l-lab-reports/assets/146383794/7c7493b2-4eca-4791-b074-b8c3edbcf23c">
-- Output is an error. The error occurs because the Java program is trying to read a file specified by the first command-line argument (`args[0]`), but if the file does not exist in the current working directory, the `Files.readString` method will throw an `IOException`.
+- <img width="325" alt="Screenshot 2024-04-03 at 8 51 23 PM" src="https://github.com/kavipj/cse15l-lab-reports/assets/146383794/96127a72-d81d-4d86-bf41-e96a6a1ae9c1">
 - Absolute path: /Users/kavi/lecture1
-- Explanation of output: The `ls Hello.java` command is used in the terminal to list the `Hello.java` file if it exists in the current working directory. Because the `Hello.java` file does not exist in the current working directory, you will receive an error message.
+- Explanation of output: The `ls Hello.java` command is used in the terminal to list the `Hello.java` file if it exists in the current working directory. Because `Hello.java` is a file that exists in the current working directory, the command will simply print `Hello.java` to the terminal.
 
 ---
 
@@ -40,10 +39,10 @@
 - Absolute path: /Users/kavi/lecture1
 - Explanation of output: The `cat` command without any arguments is used to read from standard input and write to standard output. When you run `cat` with no arguments, it waits for you to enter text from the keyboard. Whatever you type will be echoed back to the terminal when you press Enter. This continues until you signal the end of the input by pressing `Ctrl+D`.
 2. **Share an example of using the command with a path to a directory as an argument.**
-- <img width="318" alt="Screenshot 2024-04-02 at 4 39 31 PM" src="https://github.com/kavipj/cse15l-lab-reports/assets/146383794/7e0322ca-7dfe-4f18-b745-ac5364bdacdb">
-- Output is an error.
-- Absolute path: /Users/kavi/lecture1
-- Explanation of output: Because `lecture1` is a directory, you will receive an error message because `cat` cannot display the content of a directory.
+- <img width="283" alt="Screenshot 2024-04-03 at 8 57 20 PM" src="https://github.com/kavipj/cse15l-lab-reports/assets/146383794/f2f73dc9-e5d6-4d2e-9145-4014d2213788">
+- Output is an error. Because `lecture1` is a directory, you will receive an error message because `cat` cannot display the content of a directory.
+- Absolute path: /Users/kavi
+- Explanation of output: The  `cat` command is used in the terminal to display the content of a file. Because `lecture1` is a directory and not a file, there is an error.
 3. **Share an example of using the command with a path to a file as an argument.**
 - <img width="510" alt="Screenshot 2024-04-02 at 4 39 47 PM" src="https://github.com/kavipj/cse15l-lab-reports/assets/146383794/4b456a59-4fd1-4b82-89bc-7771405baa8b">
 - Absolute path: /Users/kavi/lecture1
