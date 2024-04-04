@@ -4,7 +4,7 @@
 1. **Share an example of using the command with no arguments.**
 - <img width="277" alt="Screenshot 2024-04-02 at 2 44 41 PM" src="https://github.com/kavipj/cse15l-lab-reports/assets/146383794/9484a49e-af6d-4506-9631-39a92dcbfcc3">
 - Output is not an error.
-- Absolute path: /Users/kavi
+- Absolute path: /Users/kavi/lecture1
 - Explanation of output: When you run `cd` without any arguments, it will take you to your home directory.
 2. **Share an example of using the command with a path to a directory as an argument.**
 - <img width="274" alt="Screenshot 2024-04-02 at 2 45 46 PM" src="https://github.com/kavipj/cse15l-lab-reports/assets/146383794/48c5ff43-a552-4489-b838-cea010fd4e4a">
