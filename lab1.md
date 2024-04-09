@@ -9,7 +9,7 @@
 2. **Share an example of using the command with a path to a directory as an argument.**
 - <img width="274" alt="Screenshot 2024-04-02 at 2 45 46 PM" src="https://github.com/kavipj/cse15l-lab-reports/assets/146383794/48c5ff43-a552-4489-b838-cea010fd4e4a">
 - Output is not an error.
-- Absolute path: /Users/kavi/lecture1
+- Absolute path: /Users/kavi
 - Explanation of output: The `cd lecture1` command is used in the terminal to change the current working directory to the `lecture1` directory.
 3. **Share an example of using the command with a path to a file as an argument.**
 - <img width="326" alt="Screenshot 2024-04-02 at 2 46 04 PM" src="https://github.com/kavipj/cse15l-lab-reports/assets/146383794/59677382-299f-4013-9b55-a80975f5169f">
