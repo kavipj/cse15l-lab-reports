@@ -96,7 +96,11 @@ class Server {
 
 **1. Which methods in your code are called?**
 
+`Server.start(int port, URLHandler handler)` and `handleRequest(URI url)` are called.
+
 **2. What are the relevant arguments to those methods, and the values of any relevant fields of the class?**
+
+
 
 **3. How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.**
 
