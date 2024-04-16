@@ -96,16 +96,16 @@ class Server {
 
 **1. Which methods in your code are called?**
 
-`Server.start(int port, URLHandler handler)` and `handleRequest(URI url)` are called.
+`Server.start` and `handleRequest` are called.
 
 **2. What are the relevant arguments to those methods, and the values of any relevant fields of the class?**
 
-`Server.start(int port, URLHandler handler)`:
+- `Server.start(int port, URLHandler handler)`:
 
 `port`: The port number on which the server is set to listen (from the main method's args array). 
 `handler`: An instance of `ChatHandler` which processes incoming HTTP requests.
 
-`handleRequest(URI url)` in the `ChatHandler`:
+- `handleRequest(URI url)` in the `ChatHandler`:
 
 `url`: The `URI` instance representing the URL accessed by the client. It includes the path `/add-message` and the query parameters `s=Hello&user=jpolitz`. 
 `chatHistory`: This is a `StringBuilder` that holds the cumulative chat messages. Its state changes based on the request being processed.
