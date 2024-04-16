@@ -92,7 +92,7 @@ class Server {
 
 ### Screenshots of using `/add-message`:
 
-<img width="596" alt="Screenshot 2024-04-16 at 2 14 36 PM" src="https://github.com/kavipj/cse15l-lab-reports/assets/146383794/90e3a924-9c70-4003-9fc2-4bf2a1575e8a">
+<img width="504" alt="Screenshot 2024-04-16 at 2 14 26 PM" src="https://github.com/kavipj/cse15l-lab-reports/assets/146383794/3b7ba858-a9d4-4eae-b973-651d31d61177">
 
 **1. Which methods in your code are called?**
 
@@ -101,8 +101,7 @@ class Server {
 **3. How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.**
 
 
-
-<img width="504" alt="Screenshot 2024-04-16 at 2 14 26 PM" src="https://github.com/kavipj/cse15l-lab-reports/assets/146383794/3b7ba858-a9d4-4eae-b973-651d31d61177">
+<img width="596" alt="Screenshot 2024-04-16 at 2 14 36 PM" src="https://github.com/kavipj/cse15l-lab-reports/assets/146383794/90e3a924-9c70-4003-9fc2-4bf2a1575e8a">
 
 **1. Which methods in your code are called?**
 
