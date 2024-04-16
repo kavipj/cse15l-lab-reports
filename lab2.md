@@ -100,10 +100,22 @@ class Server {
 
 **2. What are the relevant arguments to those methods, and the values of any relevant fields of the class?**
 
+`Server.start(int port, URLHandler handler)`:
+
+`port`: The port number on which the server is set to listen (from the main method's args array). 
+`handler`: An instance of `ChatHandler` which processes incoming HTTP requests.
+
+`handleRequest(URI url)` in the `ChatHandler`:
+
+`url`: The `URI` instance representing the URL accessed by the client. It includes the path `/add-message` and the query parameters `s=Hello&user=jpolitz`. 
+`chatHistory`: This is a `StringBuilder` that holds the cumulative chat messages. Its state changes based on the request being processed.
 
 
 **3. How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.**
 
+Before the request, `chatHistory` would be an empty `StringBuilder`.
+After processing the request `add-message?s=Hello&user=jpolitz`, the `chatHistory` updates to include the new message formatted as "jpolitz: Hello".
+If the `chatHistory` were not initially empty, it would append the new message on a new line, hence the use of `chatHistory.append("\n")` to ensure each message starts on a new line.
 
 <img width="596" alt="Screenshot 2024-04-16 at 2 14 36 PM" src="https://github.com/kavipj/cse15l-lab-reports/assets/146383794/90e3a924-9c70-4003-9fc2-4bf2a1575e8a">
 
