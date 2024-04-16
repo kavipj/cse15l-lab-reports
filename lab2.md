@@ -1,6 +1,7 @@
 # Lab 2 Report
 
 ## Part 1
+
 Code for `ChatServer`:
 ```
 import java.io.IOException;
@@ -91,11 +92,25 @@ class Server {
 Screenshots of using `/add-message`:
 
 <img width="596" alt="Screenshot 2024-04-16 at 2 14 36 PM" src="https://github.com/kavipj/cse15l-lab-reports/assets/146383794/90e3a924-9c70-4003-9fc2-4bf2a1575e8a">
+
+**1. Which methods in your code are called?**
+
+**2. What are the relevant arguments to those methods, and the values of any relevant fields of the class?**
+**3. How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.**
+
 <img width="504" alt="Screenshot 2024-04-16 at 2 14 26 PM" src="https://github.com/kavipj/cse15l-lab-reports/assets/146383794/3b7ba858-a9d4-4eae-b973-651d31d61177">
+
+**1. Which methods in your code are called?**
+**2. What are the relevant arguments to those methods, and the values of any relevant fields of the class?**
+**3. How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.**
 
 ---
 
 ## Part 2
+
+1. <img width="954" alt="Screenshot 2024-04-16 at 2 35 12 PM" src="https://github.com/kavipj/cse15l-lab-reports/assets/146383794/7ec8fb05-ed7c-48a3-8238-c7bf480530ff">
+2. <img width="934" alt="Screenshot 2024-04-16 at 2 35 47 PM" src="https://github.com/kavipj/cse15l-lab-reports/assets/146383794/6e05a563-7ffd-44b0-b1c1-249a304efdfc">
+3. <img width="778" alt="Screenshot 2024-04-16 at 2 39 41 PM" src="https://github.com/kavipj/cse15l-lab-reports/assets/146383794/eeb3052f-1483-4aa7-869b-45ba2a4f245c">
 
 ---
 
