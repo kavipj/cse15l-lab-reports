@@ -13,7 +13,6 @@ interface URLHandler {
 }
 
 class ChatHandler implements URLHandler {
-    // This stores all chat messages
     StringBuilder chatHistory = new StringBuilder();
 
     public String handleRequest(URI url) {
@@ -43,7 +42,7 @@ class ChatHandler implements URLHandler {
 class ChatServer {
     public static void main(String[] args) throws IOException {
         if (args.length == 0) {
-            System.out.println("Missing port number! Try any number between 1024 to 49151");
+            System.out.println("Missing port number");
             return;
         }
 
@@ -52,7 +51,6 @@ class ChatServer {
     }
 }
 
-// You will need a simple HTTP server framework like this one
 class Server {
     public static void start(int port, URLHandler handler) throws IOException {
         java.net.ServerSocket server = new java.net.ServerSocket(port);
@@ -70,7 +68,6 @@ class Server {
                     String path = requestLine[1];
                     URI url = URI.create("http://localhost:" + port + path);
 
-                    // Handle request and send response
                     String response = handler.handleRequest(url);
                     out.write("HTTP/1.1 200 OK\r\n");
                     out.write("Content-Type: text/plain\r\n");
