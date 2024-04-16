@@ -2,7 +2,7 @@
 
 ## Part 1
 
-###Code for `ChatServer`:
+### Code for `ChatServer`:
 ```
 import java.io.IOException;
 import java.net.URI;
@@ -90,7 +90,7 @@ class Server {
 ```
 
 
-###Screenshots of using `/add-message`:
+### Screenshots of using `/add-message`:
 
 <img width="596" alt="Screenshot 2024-04-16 at 2 14 36 PM" src="https://github.com/kavipj/cse15l-lab-reports/assets/146383794/90e3a924-9c70-4003-9fc2-4bf2a1575e8a">
 
