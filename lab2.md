@@ -127,3 +127,5 @@ class Server {
 ---
 
 ## Part 3
+
+Something I learned in week 2 or 3 was 
