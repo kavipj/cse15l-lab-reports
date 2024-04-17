@@ -117,14 +117,37 @@ Before the request, `chatHistory` would be an empty `StringBuilder`.
 After processing the request `add-message?s=Hello&user=jpolitz`, the `chatHistory` updates to include the new message formatted as "jpolitz: Hello".
 If the `chatHistory` were not initially empty, it would append the new message on a new line, hence the use of `chatHistory.append("\n")` to ensure each message starts on a new line.
 
+---
+
 <img width="596" alt="Screenshot 2024-04-16 at 2 14 36 PM" src="https://github.com/kavipj/cse15l-lab-reports/assets/146383794/90e3a924-9c70-4003-9fc2-4bf2a1575e8a">
 
 **1. Which methods in your code are called?**
 
+`Server.start` and `handleRequest` are called.
+
 **2. What are the relevant arguments to those methods, and the values of any relevant fields of the class?**
+
+`handleRequest(URI url)` in `ChatHandler`:
+
+`url`: This `URI` object represents the incoming request URL and contains the path `/add-message` and the query string `s=How are you&user=yash`.
+Inside the `handleRequest` method, the query is parsed to extract the `message` and `user` values from the parameters `s` and `user`.
+
+Internal Variables within `handleRequest`:
+
+`messageParam`: Extracted as "How are you" (the substring following "s=" in the query).
+`userParam`: Extracted as "yash" (the substring following "user=" in the query).
+`message`: The decoded message text "How are you".
+`user`: The decoded user name "yash".
+
+`chatHistory`:
+
+A `StringBuilder` object that accumulates the chat history. Initially, it was either empty or contained previous messages.
 
 **3. How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.**
 
+`chatHistory` in `ChatHandler`:
+Before the Request: It already contained earlier chat messages, such as "jpolitz: Hello" if this is not the first message sent during the session.
+After Processing This Request: The `chatHistory` updates by appending the new message. It now includes the newly formatted message `"yash: How are you"`. If it wasn't the first message, it would be appended on a new line after the previous messages, preserving the chronological order of the chat.
 
 ---
 
