@@ -163,4 +163,4 @@ After Processing This Request: The `chatHistory` updates by appending the new me
 
 ## Part 3
 
-Something I learned in week 2 or 3 was 
+Something I learned in week 2 or 3 was how to set up my own server. We learned how to set up a server locally and via the ieng6 server. I previously had very little experience using terminal and servers so being able to create my own and run commands on it was very interesting.
