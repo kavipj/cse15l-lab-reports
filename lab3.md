@@ -88,4 +88,12 @@ The fix for the `reverseInPlace` function involves using a temporary array to st
 
 ## Part 2
 
+### grep
 
+**Recursive Search (`-R`):**
+
+**Only Matching (`-o`):**
+
+**Count of Matching Lines (`-c`):**
+
+**Line Number Display (`-n`):**
