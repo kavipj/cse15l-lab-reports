@@ -113,6 +113,8 @@ kavi@Kavis-MacBook-Pro-325 docsearch % grep -Rl "non-proliferating" ./technical
 ./technical/biomed/1471-2121-3-6.txt
 ```
 
+---
+
 **Only Matching (`-o`):**
 
 Example 1: This command searches for any occurrence of years between 2027 and 2029, printing only the matching parts (just the years), throughout the `technical` directory recursively. Useful for extracting specific data points like years from files.
@@ -160,6 +162,7 @@ kavi@Kavis-MacBook-Pro-325 docsearch % grep -Ro "202[0-9]" ./technical/biomed
 ./technical/biomed/1471-2156-4-9.txt:2025
 ```
 
+---
 
 **Count of Matching Lines (`-c`):**
 
@@ -443,6 +446,8 @@ kavi@Kavis-MacBook-Pro-325 docsearch % grep -Rc "Boston" ./technical/911report
 ./technical/911report/chapter-10.txt:0
 ./technical/911report/chapter-11.txt:0
 ```
+
+---
 
 **Line Number Display (`-n`):**
 
