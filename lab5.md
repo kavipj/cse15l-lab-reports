@@ -14,7 +14,9 @@ Hi everyone,
 
 I'm working on a Java project for our class, and I've run into a weird issue. My program compiles fine, but when I run it using my bash script, it doesn't seem to work correctly. Instead of displaying the expected output, it shows some unexpected behavior.
 
-Here's what I'm seeing: ![Screenshot 2024-06-10 at 3 30 34 AM](https://github.com/kavipj/cse15l-lab-reports/assets/146383794/e5d8a24a-a5d2-4047-92ba-a4eb3d49233e)
+Here's what I'm seeing: 
+
+![Screenshot 2024-06-10 at 3 30 34 AM](https://github.com/kavipj/cse15l-lab-reports/assets/146383794/e5d8a24a-a5d2-4047-92ba-a4eb3d49233e)
 
 From what I can tell, the issue might be related to the input I'm providing through the script. The script should read a file, process it, and print some results. Any pointers on what might be going wrong?
 
