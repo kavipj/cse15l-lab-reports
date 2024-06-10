@@ -28,7 +28,9 @@ This will help us understand if the file contents are being read correctly.
 
 ### 3. Information student got from trying command
 
-Thanks for the suggestion. I added some debug statements and ran the command you mentioned. Here's what I got: ![Screenshot 2024-06-10 at 3 31 46 AM](https://github.com/kavipj/cse15l-lab-reports/assets/146383794/94f44101-62e3-43c6-a3cc-bae31e0ce77c)
+Thanks for the suggestion. I added some debug statements and ran the command you mentioned. Here's what I got: 
+
+![Screenshot 2024-06-10 at 3 31 46 AM](https://github.com/kavipj/cse15l-lab-reports/assets/146383794/94f44101-62e3-43c6-a3cc-bae31e0ce77c)
 
 It seems like the file is being read correctly, but my program is still not processing it as expected. Any ideas?
 
