@@ -128,4 +128,4 @@ public class Main {
 
 ## Part 2 - Reflection
 
-One thing that I learned in the second half of the quarter was how to creat my own autograder. This was interesting because I learned how our own work gets graded and the wha the process is to get an autograder set up. It was also fun to experiment with my own autograder to add different grading functions or improve the usability of the program. 
+One thing that I learned in the second half of this quarter was how to create my own autograder. This was interesting because I learned how our own work gets graded and what the process is to get an autograder set up. It was also fun to experiment with my own autograder to add different grading functions or improve the usability of the program. 
