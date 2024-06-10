@@ -4,15 +4,9 @@
 
 ### 1. Original post from student
 
-**Piazza Post:** Debugging Scenario
+Hi,
 
-**Subject:** Need Help with Java Program Not Executing Correctly
-
-**Content:**
-
-Hi everyone,
-
-I'm working on a Java project for our class, and I've run into a weird issue. My program compiles fine, but when I run it using my bash script, it doesn't seem to work correctly. Instead of displaying the expected output, it shows some unexpected behavior.
+I'm working on a Java project for our class, and I've run into an issue. My program compiles fine, but when I run it using my bash script, it doesn't seem to work correctly. Instead of displaying the expected output, it shows some unexpected behavior.
 
 Here's what I'm seeing: 
 
@@ -24,10 +18,6 @@ From what I can tell, the issue might be related to the input I'm providing thro
 
 ### 2. Response from TA
 
-**Subject: Re:** Need Help with Java Program Not Executing Correctly
-
-**Content:**
-
 Hi,
 
 Thanks for providing the screenshot. It looks like there might be an issue with how the input file is being read or processed. Could you try adding some debug statements to your Java code to print out the contents of the file as it reads it? Also, can you share the output of running the `cat input.txt` command in your terminal?
@@ -37,10 +27,6 @@ This will help us understand if the file contents are being read correctly.
 ---
 
 ### 3. Information student got from trying command
-
-**Subject: Re:** Need Help with Java Program Not Executing Correctly
-
-**Content:**
 
 Thanks for the suggestion. I added some debug statements and ran the command you mentioned. Here's what I got: ![Screenshot 2024-06-10 at 3 31 46 AM](https://github.com/kavipj/cse15l-lab-reports/assets/146383794/94f44101-62e3-43c6-a3cc-bae31e0ce77c)
 
